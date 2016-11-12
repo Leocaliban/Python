@@ -1,0 +1,6 @@
+'''Escreva um programa que peça ao usuário um número natural que representa o raio de um círculo e calcule a sua área.'''
+
+raio = input('Digite Um Número Natural Que Represente O Raio Da Circunferência:')
+pi = 3.14
+area = float(pi)* float(raio)**2
+print ('A Área Da Circunferência É:',area)
