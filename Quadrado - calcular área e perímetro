@@ -1,0 +1,7 @@
+'''Escreva um programa que peça ao usuário um número natural que representa o lado de um quadrado e calcule seu perímetro e a sua área.'''
+
+Lado1 = input('Digite Um Número Natural Que Represente O Lado De Um Quadrado:')
+Area = int(Lado1)**2
+Perimetro = int(Lado1)*4
+print ('Resultado Da Área:',Area)
+print ('Resultado Do Perímetro:',Perimetro)
