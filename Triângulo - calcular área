@@ -1,0 +1,7 @@
+'''Escreva um programa que peça ao usuário dois números naturais que representam a base e a altura de um triângulo, respectivamente,
+e calcule a sua área.'''
+
+base = input('Digite Um Número Natural Que Represente A Base De Um Triângulo:')
+altura = input('Digite Um Número Natural Que Represente A Altura Desse Triângulo:')
+area = int(base)*int(altura)/2
+print ('A Área Do Triângulo É:',area)
