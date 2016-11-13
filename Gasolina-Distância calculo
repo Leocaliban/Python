@@ -1,0 +1,9 @@
+#Escreva um programa que calcule com quantos litros de gasolina é preciso
+#abastecer um veículo, dada a distância que se deseja percorrer e a quantidade
+#de quilômetros que o veículo faz por litro.
+
+
+distancia = input('Digite A Distância Da Viagem:')
+KPL = input('Digite Quantos Quilômetros Seu Veículo Faz Com 1 Litro:')
+total = float(distancia)/float(KPL)
+print ('Para Essa Viagem Você Deve Abastecer:',Total)
